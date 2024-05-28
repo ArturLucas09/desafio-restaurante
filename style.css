@@ -1,0 +1,112 @@
+
+/* Estilo geral */
+
+body {
+  font-family: Arial;
+  margin: 0;
+  padding: 0;
+  background-color: #ffe66b;
+}
+
+nav {
+  background-color: #fd0100;
+  padding: 10px 20px;
+  font-family: "Franklin Gothic Medium";
+  font-weight: bold;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 150px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/* Página inicial */
+
+.fotos {
+  text-align: center;
+}
+
+.fotos img {
+  width: 500px;
+  height: 500px;
+}
+
+/*Sobre */
+.fotos1 {
+  text-align: center;
+
+  height: auto;
+}
+
+/* Cardápio */
+
+table {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+th,
+td {
+  border: 3px solid #716a6a;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.sabores-lista {
+  list-style: disc;
+  margin: 20;
+  padding: 20;
+  columns: 4;
+  column-gap: 100px;
+}
+
+.sabores-lista li {
+  margin-bottom: 50px;
+}
+
+/* Contato */
+
+form {
+  width: 500px;
+  margin: 50px auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #000000;
+}
+
+button {
+  background-color: #fd0100;
+  color: rgb(252, 252, 252);
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Redes Sociais */
+.redes {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
+}
